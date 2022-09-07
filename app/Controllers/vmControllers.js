@@ -16,10 +16,9 @@ export class VmController {
     let template = ''
     items.forEach(i => {
       template += `
-      <div class="col-4 text-center">
+      <div class="col-2 text-center bg-light shadow rounded-2">
           <div>${i.name}</div>
           <div>${i.price}</div>
-      
           <button class="btn btn-primary" onclick="app.vmController.buyItem('${i.name}')">hey</button>
         </div>
       `

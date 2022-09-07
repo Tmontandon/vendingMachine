@@ -10,7 +10,7 @@ class AppState extends EventEmitter {
 
 
   /** @type {import('./Models/vm').Item[]} */
-  items = [new Item('Chips', 3), new Item('Bar', 2)]
+  items = [new Item('Chips', 3), new Item('Bar', 2), new Item('Drink', 3)]
 
 }
 
